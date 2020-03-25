@@ -1,0 +1,77 @@
+<!-- THE BOILERPLATE SHOULD NOT BE REMOVED -->
+<!-- Proper naming convention should be used while naming id attributes. -->
+<!-- ADDING A SUCCESS PAGE FOR THE SAME WILL BOOST YOUR CHANCES -->
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Login</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="static/css/main.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="js/index.js"></script>
+   </head>
+   <!-- <body> -->
+   <!-- <img src="https://incubateind.com/images/IncubateIND%20Black.png" class="logo" alt=""> -->
+   <!-- Beautify This -->
+   <!-- Beautify Ends -->  
+   <!-- </body> -->
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 mx-auto">
+               <div id="main">
+                  <div class="signupForm ">
+                     <div class="logo mb-3">
+                        <div class="col-md-12 text-center">
+                           <h1>Signup</h1>
+                        </div>
+                     </div>
+                     <form onsubmit="save()" name="signup">
+                        <div class="form-group">
+                           <label for="uName">User Name</label>
+                           <input type="text" name="uName"  class="form-control" id="uName"  placeholder="Enter User Name">
+                        </div>
+                        <div class="form-group">
+                           <label for="email">Email address</label>
+                           <input type="email" name="email"  class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                          <label for="phone">Phone Number</label>
+                          <input type="phone" name="phone"  class="form-control" id="phone" placeholder="Enter phone">
+                       </div>
+                        <div class="form-group">
+                           <label for="pwd">Password</label>
+                           <input type="password" name="password" id="password"  class="form-control"  placeholder="Enter Password">
+                        </div>
+                        <div class="form-group">
+                           <label for="cnfPwd">Password</label>
+                           <input type="password" name="cnfPassword" id="cnfPassword"  class="form-control" placeholder="Confirm Password">
+                        </div>
+                        <div class="form-group">
+                           <label for="comment">Comment</label>
+                           <textarea name="comment" id="comment" class="form-control" rows="5" placeholder="Comment"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="comment">Age</label>
+                           <label class="radio-inline"><input type="radio" name="optradio" id="belowEighteen" checked>Below Eighteen</label>
+                           <label class="radio-inline"><input type="radio" name="optradio" id="eighteen">Eighteen</label>
+                           <label class="radio-inline"><input type="radio" name="optradio" id="aboveEighteen">Above Eighteen</label>
+                        </div>
+                         <div class="col-md-12 text-center ">
+                           <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Submit</button>    
+                        </div>
+                     
+                     </form>
+                     
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
